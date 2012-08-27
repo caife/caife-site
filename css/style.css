@@ -1,0 +1,697 @@
+@charset "UTF-8";
+
+/* HTML5 Boilerplate CSS: h5bp.com/css */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif;color:#222}body{margin:0;font-size:1em;line-height:1.4}::-moz-selection{background:#898989;color:#fff;text-shadow:none}::selection{background:#898989;color:#fff;text-shadow:none}a{color:#00e}a:visited{color:#551a8b}a:hover{color:#06e}a:focus{outline:none}a:hover,a:active{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}hr{display:block;height:1px;border:0;border-top:1px solid #ebebeb;margin:1em 0;padding:0}ins{background:#ff9;color:#000;text-decoration:none}mark{background:#ff0;color:#000;font-style:italic;font-weight:bold}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:"";content:none}small{font-size:85%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}ul,ol{margin:1em 0;padding:0 0 0 40px}dd{margin:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none;margin:0;padding:0}img{border:0;-ms-interpolation-mode:bicubic;vertical-align:middle}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:0;margin:0;padding:0}label{cursor:pointer}legend{border:0;*margin-left:-7px;padding:0;white-space:normal}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*width:13px;*height:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top;resize:vertical}input:invalid,textarea:invalid{background-color:#f0dddd}table{border-collapse:collapse;border-spacing:0}td{vertical-align:top}.chromeframe{margin:.2em 0;background:#ccc;color:black;padding:.2em 0}
+
+/* Generic*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 62.5%;
+	line-height: 160%;
+}
+
+input, button, textarea, select {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Typography */
+h3
+{
+	font-size: 2.2em;
+	color:#000;
+	font-family: 'Open Sans', sans-serif;
+	margin: 21px 0 10px 0;
+	line-height: 130%;
+	font-style: italic;
+	font-weight: bold;
+	max-width: 500px;
+}
+
+.text-white h3 {
+	color:#fff;
+}
+
+.comming-soon p
+{
+	color:#333333;
+	font-size:1.6em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 155%;
+	margin-top:17px;
+	margin-bottom: 39px;
+}
+
+.text-white .comming-soon p {
+	color:#fff;
+}
+
+.text-white .comming-soon p.small {
+	color:#fff;
+}
+
+.comming-soon p.small
+{
+	color:#000;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 1.1em;
+	margin-top:6px;
+	margin-bottom: 35px;
+}
+
+.text-white .contact-list .address {
+	color:#fff;
+}
+
+.text-white .contact-list .address-text a, a:visited {
+	color: #fff;
+}
+
+footer p {
+	color:#bfc2c4;
+	font-size: 1.3em ;
+	color:#bfc2c4;
+	font-style: italic;
+	line-height: 140%;
+}
+
+.comming-soon .contact-list p {
+	font-size: 1.3em ;
+	font-style: italic;
+	line-height: 140%;
+	text-decoration:none;
+}
+
+footer a, footer a:visited {
+	color:#e3e5e6;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color:#898989;
+	text-decoration: none;
+}
+
+.widget-twitter ul li .tweet_time a {
+	color:#aeaeae;
+	text-decoration: none;
+}
+
+.widget-twitter .tweet p {
+	font-size: 1.2em;
+	color:#6e6e6e;
+	font-style: italic;
+	background: url(../img/bg-tweet-speech.png) no-repeat 7px bottom;
+	padding: 0 0 15px 0;
+	margin: 0 0 5px 0;
+}
+
+.widget-twitter .tweet span {
+	display: block;
+	height: 16px;
+	background: url(../img/twitter.png) no-repeat;
+	padding: 0 0 0 30px;
+	line-height: 13px;
+	font-size: 1.0em;
+	color:#aeaeae;
+	font-style: italic;
+}
+
+.contact-list .contacts{
+	color:#000;
+	font-size: 1.3em;
+	font-style: italic;
+	font-weight: 600;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.contact-list .address
+{
+	color:#000;
+	opacity: 0.5;
+	margin-bottom: 0px;
+	margin-top:12px;
+}
+
+.contact-list .address-text
+{
+	color:#000;
+	margin-top:0px;	
+	text-decoration:none;
+} 
+
+.contact-list .address-text a, a:visited
+{
+	color:#000;
+} 
+
+header.comming-soon {
+	padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+	background: #fff;
+	position: relative;
+	z-index: 9;
+}
+
+footer .wrapper {
+	width: 946px;
+}
+
+.twitter-feed {
+	width: 296px;
+	background: url(../img/icons/twitter-footer.png) no-repeat 0 0;
+	margin-top:-30px;
+	margin-bottom:20px;
+	margin-left:82px;
+}
+
+footer .twitter-feed ul {
+	margin: 0;
+	padding: 0;
+}
+
+footer .twitter-feed li {
+	list-style-type: none;
+	display: block;
+	width: 301px;
+	min-height: 75px;
+}
+
+footer .twitter-feed li.tweet_first .tweet_time {
+	margin-top: 38px;
+}
+
+footer .twitter-feed li.tweet_first .tweet_text {
+	margin-top: 10px;
+}
+
+footer .twitter-feed .tweet_text {
+	display: block;
+	float: right;
+	width: 256px;
+	color:#bfc2c4;
+	font-size: 1.3em;
+	font-style: italic;
+	line-height: 140%;
+}
+
+footer .twitter-feed .tweet_time {
+	float: left;
+	width: 30px;
+	display: block;
+	color:#69737d;
+	font-size: 1.0em;
+	background: url(../img/speech-twitter-footer.png) no-repeat 0 top;
+	padding-top: 6px;
+	margin-top: 5px;
+	line-height: 120%;
+}
+
+footer .twitter-feed .tweet_time a {
+	color:#aeaeae;
+}
+
+footer .social {
+	margin: -17px 8px 0 0px;
+	padding: 0;
+	float: right;
+}
+
+footer .social li {
+	list-style-type: none;
+	float: left;
+}
+
+footer .social li a {
+	background: #69737d;
+	padding: 8px 6px;
+	margin: 0 0 0 2px;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	display: block
+}
+
+footer .social li a:hover {
+	padding: 16px 6px 8px 6px;
+	margin: -8px 0 0 2px;
+}
+
+footer .social li.linkedin a:hover {
+	background: #4875B4;
+}
+
+footer .social li.gplus a:hover {
+	background: #D6492C;
+}
+
+footer .social li.twitter a:hover {
+	background: #33CCFF;
+}
+
+footer .social li.facebook a:hover {
+	background: #3B5998;
+}
+
+.rights-reserved{
+	color:#aeaeae;
+	font-size:1.2em;
+	margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.widget-twitter .tweet {
+	margin: 0 0 30px 0;
+}
+
+.widget-twitter ul {
+	margin: 0;
+	padding: 0;
+}
+
+.widget-twitter ul li {
+	list-style-type: none;
+	margin-bottom: 30px;
+}
+
+.widget-twitter ul li .tweet_text{
+	font-size: 1.2em;
+	color:#6e6e6e;
+	font-style: italic;
+	background: url(../img/bg-tweet-speech.png) no-repeat 7px bottom;
+	padding: 0 0 15px 0;
+	margin: 0 0 5px 0;
+	display: block;
+}
+
+.widget-twitter ul li .tweet_text a {
+	color:#333;
+	text-decoration: none;
+}
+
+.widget-twitter ul li .tweet_text a:hover {
+	color:#898989;
+	text-decoration: underline;
+}
+
+.widget-twitter ul li .tweet_time{
+	display: block;
+	height: 16px;
+	background: url(../img/twitter.png) no-repeat;
+	padding: 0 0 0 30px;
+	line-height: 13px;
+	font-size: 1.0em;
+	color:#aeaeae;
+	font-style: italic;
+}
+
+.widget-twitter ul li .tweet_time:before {
+	content: '(';
+}
+
+.widget-twitter ul li .tweet_time:after {
+	content: ')';
+}
+
+/* Form */
+form {
+	position: relative;
+}
+
+input.email
+{
+	 background: white;
+	 height:56px;
+	 width:355px;	
+	 border-style: none;
+	border-width: 0;
+	border-radius: 5px;
+	float:left;
+	font-weight: 600;
+	font-size:1.6em;
+	color:#898989;
+	padding-left:15px;
+	font-style: italic;
+}
+
+input.email:focus
+{
+	color:black;
+	outline:none;
+}
+
+input::-webkit-input-placeholder {
+	color:#898989;
+}
+
+.btn_email
+{
+	background:url(../img/plus.png) no-repeat #898989;
+	display: block;
+	outline: medium none;
+    text-indent: -9000px;
+    height: 27px;
+    width: 27px;
+	float:left;
+    border:none;
+    position: absolute;
+    left:333px;
+    top: 16px;
+}
+
+
+/* Header */
+.comming-soon
+{
+	margin-left:82px;
+	position: relative;
+	z-index:2;
+	padding-bottom: 60px;
+}	
+
+header.comming-soon
+{
+	padding-top:4px;
+}
+
+header.comming-soon .logo
+{
+	padding-left:0;
+}
+
+.wrapper-comming-soon
+{
+	width:100%;
+}
+
+.contact-address
+{
+	width:206px;
+}
+
+.contact-numbers 
+{
+	padding-top: 30px;
+}
+
+.contact-numbers p
+{
+	margin:0;
+}
+
+.float-left{
+	float:left;
+}
+
+.wrapper-comming-soon .social
+{
+	/*margin: -35px 40px 0 0;*/
+    position: absolute;
+    right: 30px;
+    top: -18px;
+}
+
+.wrapper-comming-soon .bottom-elements
+{
+	float:left;
+	
+}
+
+.form-msg {
+font-style: italic;
+}
+
+.wrapper-comming-soon .social li a {
+    background: none ;
+    display: block;
+    height: 19px;
+    margin: 0 0 0 2px;
+    padding: 8px 6px;
+    text-align: center;
+    width: 18px;
+    background: #898989;
+}
+
+.wrapper-comming-soon .social li a:hover {
+    margin: -8px 0 0 2px;
+    padding: 16px 6px 16px;
+}
+
+
+.wrapper-comming-soon  .twitter-feed .loading
+{
+	margin-top: 39px;
+	margin-left:44px;
+}
+
+.wrapper-comming-soon  .twitter-feed .tweet_text {
+    color: #6e6e6e;
+    display: block;
+    float: right;
+    font-size: 1.6em;
+    font-style: italic;
+    line-height: 140%;
+    width: 256px;
+    position:relative;
+    top:34px;
+}
+
+.wrapper-comming-soon  .twitter-feed .tweet_text .at
+{
+	color: #898989;
+}
+
+.wrapper-comming-soon  .twitter-feed a, footer a:visited {
+    color: #898989;
+    text-decoration: none;
+}
+
+.container-comming-soon
+{
+	background-color:#898989;
+	z-index: 2;
+	position:relative;
+}
+
+.content {
+	max-width: 650px;
+	margin-right:82px;
+}
+
+.tweet_list {
+	clear:both;
+}
+
+
+/* =============================================================================
+   Classes que ajudam
+   ========================================================================== */
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+.relative { position: relative; }
+.wrapper { width: 981px; margin: 0 auto; }
+.left { float: left; }
+.right { float: right; }
+.center { text-align: center; }
+.justify { text-align: justify; }
+.block { display: block; }
+.inner-content { padding: 0 0 0 15px; }
+
+.margin-0 { margin: 0; }
+.margin-60 { margin:  60px 0}
+.margin-30 { margin:  30px 0}
+.margin-left-82 {margin-left:82px;}
+.margin-124{margin-left:124px;}
+.margin-right-10{	margin-right:10px;}
+.margin-right-13{	margin-right:13px;}
+.margin-right-26{	margin-right:26px;}
+
+.ml-20 { margin-left: 20px; }
+
+.mt-0, .mt-0 p { margin-top: 0px; }
+.mt-10 { margin-top: 10px; }
+.mt-20 { margin-top: 20px; }
+.mt-30 { margin-top: 30px; }
+
+.mb-20 { margin-bottom: 20px; }
+.mb-30 { margin-bottom: 30px; }
+
+.wrapper-comming-soon .social li a{
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+
+/* Media Queries */
+@media screen and (max-width: 730px) {
+
+	.content{margin-right:20px;}
+	
+	.comming-soon{margin-left: 20px;}
+	
+	input.email {
+		width:355px;
+	}
+	
+	.btn_email {
+		left: 333px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	input.email {
+		width:355px;
+	}
+	
+	.btn_email {
+		left: 333px;
+	}
+	
+	.twitter-feed{
+		margin-left:20px;
+	}
+}
+
+
+@media screen and (max-width: 480px) { 
+
+	.container-comming-soon {
+		padding-right: 20px;
+	}
+	
+	
+	input.email {
+		width:247px;
+	}
+	
+	.btn_email {
+		left: 225px;
+	}
+	
+	.wrapper-comming-soon .social {
+		right: 20px;
+	}
+	
+	.content{margin-right:20px;}
+	
+	.comming-soon{margin-left: 20px;}
+	
+}
+
+@media screen and (max-width: 345px) { 
+	
+	input.email {
+		width: 225px;
+	}
+	
+	.wrapper-comming-soon .twitter-feed {
+		width: auto;
+		margin-left: 20px;
+	}
+	
+	footer .twitter-feed li {
+		width: auto;
+	}
+	
+	.btn_email {
+		left: 205px;
+	}
+	
+	.wrapper-comming-soon .twitter-feed .tweet_text {
+		width: 200px;
+		margin-left: 20px;
+	}
+	
+	.margin-124 {
+		margin-left: 20px;
+	}
+	
+	.comming-soon {
+		margin-left: 20px;
+		padding-bottom: 40px;
+		
+	}
+	
+	header.comming-soon {
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	
+	.comming-soon p {
+		margin-bottom: 10px;
+	}
+	
+	.contact-numbers {
+		padding-top: 0;
+	}
+	
+	.wrapper-comming-soon .social {
+		right: 10px;
+	}
+	
+	.rights-reserved {
+		margin-top: 40px;
+	}
+	
+	.content{
+		margin-bottom:30px;
+		margin-right:0px;
+	}
+	
+}
+
+/* IE fixes */
+
+.comming-soon p.small, .rights-reserved {
+	clear:both;
+}
+.lt-ie8 .wrapper-comming-soon .twitter-feed{
+	margin-top: -50px; 	
+}
+
+.lt-ie8 input.email {
+	line-height: 56px;
+}
+
+-moz-selection{background:#898989;}
+::selection{background:#898989;}
+.wrapper-comming-soon .social li a, .container-comming-soon, #progress-bar
+{background:#898989;}
+
+footer a:hover,.widget-twitter ul li .tweet_text a:hover, input.email ,
+.wrapper-comming-soon  .twitter-feed .tweet_text .at,.wrapper-comming-soon  .twitter-feed a, footer a:visited 
+{color:#898989;}
+
+input::-webkit-input-placeholder
+{color:#898989;}
+
+.btn_email{	background:url(../img/plus.png) no-repeat #898989;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
