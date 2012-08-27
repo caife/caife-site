@@ -19,8 +19,8 @@ ____________________________________________________________
 Caife Software
 www.caife.com.br";
 
-    $mailer->AddAddress('caife@caife.com.br', 'Caife Software'); //para quem vai ser enviado o email de contato
-    #$mailer->AddAddress('suporte@caife.com.br', 'Suporte - Caife Software'); //pode ser adicionado um segundo contato
+    $mail->AddAddress('caife@caife.com.br', 'Caife Software'); //para quem vai ser enviado o email de contato
+    #$mail->AddAddress('suporte@caife.com.br', 'Suporte - Caife Software'); //pode ser adicionado um segundo contato
 
     if($mail->Send()){
         echo 'E-mail enviado com sucesso';
