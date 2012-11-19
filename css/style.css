@@ -670,7 +670,7 @@ font-style: italic;
 -moz-selection{background:#898989;}
 ::selection{background:#898989;}
 .wrapper-comming-soon .social li a, .container-comming-soon, #progress-bar
-{background:#898989;}
+{background:#999999;}
 
 footer a:hover,.widget-twitter ul li .tweet_text a:hover, input.email ,
 .wrapper-comming-soon  .twitter-feed .tweet_text .at,.wrapper-comming-soon  .twitter-feed a, footer a:visited 
